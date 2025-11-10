@@ -24,8 +24,13 @@ public class FrogSimulation
      * Returns true if the frog successfully reached or passed the goal during the simulation;
      * false otherwise.
      */
-    public boolean simulate()
-    { /* to be implemented in part (a) */ }
+    public boolean simulate(){
+        int currentDistance = 0;
+        while (currentDistance < ) {
+            currentDistance += hopDistance();
+        }
+        return true;
+    }
 
     /** Runs num simulations and returns the proportion of simulations in which the frog
      * successfully reached or passed the goal.

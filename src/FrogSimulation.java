@@ -22,7 +22,7 @@ public class FrogSimulation {
      * Returns an integer representing the distance, in inches, to be moved when the frog hops.
      */
     private int hopDistance() {
-        return (int) ((Math.random() * 48) - 16);
+        return (int) ((Math.random() * 32) - 12);
     }
 
     /**
